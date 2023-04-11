@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    font-size: 12rem;
+    padding-bottom: 0;
+    margin: 5rem;
+}
+
+.form-group{
+    align-items: center;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+
+form {
+    text-align: center;
+}
+
+.thick{
+    font-size: 3rem;
+    display: block;
+    margin-top: 0;
+}
+
+.submit{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 13rem;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+
+.text-input{
+    font-size: 1.5rem;
+}

@@ -1,0 +1,17 @@
+<div class="main">
+    <h1> Twin Genious </h1>
+</div>
+
+<form ngForm #f="ngForm" (ngSubmit)="onSubmit(f.value);">
+    <div class="form-group model">
+      <label class="thick">Username</label>    
+      <input ngModel name="username" #model="ngModel" type="text" class="form-control text-input" autocomplete="off" placeholder="twin genious happy user :)">
+    </div>
+    <div class="form-group">
+      <label class="thick">Password</label>
+      <input ngModel name="password" #model="ngModel" type="password" class="form-control text-input" autocomplete="off" placeholder="******">
+    </div>
+    <div class="submit">
+      <button type="submit" class="btn btn-primary btn-block blue-btn" style="margin: 0px; margin-top: 24px;">Login</button>
+    </div>
+

@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    font-size: 14rem;
+}
+
+h2{
+    text-align: center;
+    color: rgb(72, 56, 56);
+    font-size: 6rem;
+}
+
+.container{
+    cursor: pointer;
+    padding-top: 0;
+}
+
+.main{
+    padding-bottom: 0;
+}

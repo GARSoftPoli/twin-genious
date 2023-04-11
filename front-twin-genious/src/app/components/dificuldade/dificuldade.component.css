@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    font-size: 14rem;
+}
+
+.gui{
+    display: flex;
+    flex-direction: row;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+}
+
+.gui__btn{
+    box-shadow: 0 .2rem .3rem #222;
+    border: .4rem solid #444;
+    cursor: pointer;
+    width: 12rem;
+    height: 12rem;
+    margin-left: .2rem;
+    border-radius: 5rem;
+}
+
+.gui__btn:active {
+    transform: translate(0, .3rem);
+    box-shadow: none;
+}
+
+.gui__btn--facil{
+    background-color: green;
+}
+
+.gui__btn--medio{
+    background-color: yellow;
+}
+
+.gui__btn--dificil{
+    background-color: red;
+}
+
+.gui__label{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.group {
+    margin-right: 4rem;
+}

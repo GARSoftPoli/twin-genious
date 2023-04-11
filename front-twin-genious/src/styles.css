@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body{
+    background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png');
+    font-family: "Bungee", verdana, sans-serif;
+}

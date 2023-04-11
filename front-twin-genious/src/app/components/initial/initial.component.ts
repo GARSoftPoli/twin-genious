@@ -15,12 +15,7 @@ export class InitialComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    if(!this.mqttservice.isConnection){
-      this.mqttservice.createConnection();
-      this.mqttservice.doSubscribe('leds/');
-      this.mqttservice.doSubscribe('ganhou/');
-      this.mqttservice.doSubscribe('perdeu/');
-    }
+    
   }
 
   startGame(){
